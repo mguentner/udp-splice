@@ -67,6 +67,7 @@ To further optimize resources it is possible to disable forwarding to `peer2` th
 this is not needed.
 
 Simply send `SIGUSR1` to the running instance using `kill -SIGUSR1 $PID_OF_UDP_SPLICE`.
+
 To re-enable it, repeat the same command.
 
 ## Copyright & License
